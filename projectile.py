@@ -16,7 +16,7 @@ theta = np.radians(angle)
 
 # ----calculate range and height---------
 R= Vo**2*np.sin(2*theta)/g
-H= Vo**2*np.sin(theta**2/(2*g))
+H= Vo**2*np.sin(theta**2)/(2*g)
 T=2*Vo*np.sin(theta)/g
 
 # -----print physics result--------
